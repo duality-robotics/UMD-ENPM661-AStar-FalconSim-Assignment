@@ -64,9 +64,8 @@ Edit:
 ros_falcon_astar.launch.py
 ```
 Update:
--`cwd=` to your FalconSim install path
-
--`scenario=` to the full path of `AMRPathPlanning.usda`
+- `cwd=` to your FalconSim install path
+- `scenario=` to the full path of `AMRPathPlanning.usda`
 
 ### 6. Launch Simulation
 ```bash
