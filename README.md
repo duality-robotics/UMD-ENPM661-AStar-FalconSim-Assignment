@@ -80,9 +80,17 @@ ros2 launch astar_falcon_planner ros_falcon_astar.launch.py \
     wheel_distance:=0.287 \
     rpms:=[50.0,100.0]
 ```
+
+## Important Notes
+- Set start pose in `AMRPathPlanning.usda` (line ~50)
+- FalconSim uses cm; ROS2 uses meters. Conversion is handled in `AMRPathPlanning.py`
+- Grid map should be sized in cm
+- A* implementation is expected in: `astar_falcon_planner/submodules/astar_planner.py`
+
+NOTE : For questions or support regarding Falcon Setup or debugging, reach out to us on our [Community Discord]() 
+
 ## Learning Outcomes
 - Understand A* path planning algorithm
 - Gain hands-on experience with ROS2-based robotic control
 - Integrate digital twin scenarios using FalconSim
 
-**NOTE:** For questions or support regarding Falcon Setup or debugging, reach out to us on our [Community Discord]() 
