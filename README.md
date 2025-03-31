@@ -2,6 +2,8 @@
 
 Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, you will implement the A* algorithm for a differential-drive robot and simulate the results in a realistic warehouse environment using **FalconSim**.
 
+---
+
 ## 📁 Project Structure
 
 - `ROS2/`: Contains the ROS2 workspace with launch files and source code
@@ -10,19 +12,21 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 - `slides/`: PDF slides for classroom instruction
 - `.gitignore`, `.gitattributes`: Standard project config
 
-## 🛠️ Requirements (Local users)
+---
 
-| System Requirement | Minimum Spec |
-|--------------------|--------------|
-| OS                 | Ubuntu 22.04 |
-| GPU                | Nvidia GeForce 3050 |
-| RAM                | 16 GB        |
+## 🛠️ Requirements (Local Users)
 
-You also need:
+| System Requirement | Minimum Spec            |
+|--------------------|-------------------------|
+| OS                 | Ubuntu 22.04            |
+| GPU                | Nvidia GeForce 3050     |
+| RAM                | 16 GB                   |
+
+**Software Dependencies**:
 - FalconSim 5.1 (Linux only)
 - ROS2 Humble
 - Colcon
-- A Falcon Account
+- Falcon Account
 
 ---
 
@@ -30,18 +34,19 @@ You also need:
 
 ### 1. Falcon Setup
 - [Create a Falcon Account](https://falcon.duality.ai/auth/sign-up)
-- [Download FalconSim Ubuntu 5.1](https://falcon.duality.ai/downloads)
+- [Download FalconSim for Ubuntu 5.1](https://falcon.duality.ai/downloads)
 ```bash
 cd ~/Downloads
 sudo apt install ./FalconSim_Linux_Ubuntu22_v5.1.0216.deb
 ```
 
-### 2. Install ROS2 Humble(If not done already)
+### 2. Install ROS2 Humble (If not already installed)
 Follow [this guide](https://docs.ros.org/en/humble/Installation.html)
 Then install colcon:
 ```bash
 sudo apt install python3-colcon-common-extensions
 ```
+
 ### 3. Run FalconSim Once
 ```bash
 cd ~/duality/falconsim/
@@ -63,9 +68,9 @@ Edit:
 ```bash
 ros_falcon_astar.launch.py
 ```
-Update:
-- `cwd=` to your FalconSim install path
-- `scenario=` to the full path of `AMRPathPlanning.usda`
+Edit ros_falcon_astar.launch.py:
+- Update `cwd=` to your FalconSim install path (e.g., /home/username/duality/falconsim/)
+- Update `scenario=` to the full path of `AMRPathPlanning.usda`
 
 ### 6. Launch Simulation
 ```bash
@@ -81,15 +86,16 @@ ros2 launch astar_falcon_planner ros_falcon_astar.launch.py \
 ```
 
 ## Important Notes
-- Set start pose in `AMRPathPlanning.usda` (line ~50)
-- FalconSim uses cm; ROS2 uses meters. Conversion is handled in `AMRPathPlanning.py`
-- Grid map should be sized in cm
-- A* implementation is expected in: `astar_falcon_planner/submodules/astar_planner.py`
-
-NOTE : For questions or support regarding Falcon Setup or debugging, reach out to us on our [Community Discord]() 
+- Set start pose in `Scenarios/AMRPathPlanning/AMRPathPlanning.usda` (around line 50)
+- FalconSim uses centimeters (cm); ROS2 operates in meters (m) — the conversion is handled automatically in `AMRPathPlanning.py`
+- Ensure your grid map is defined in centimeters (cm) for better path resolution.
+- You will implement A* in: `astar_falcon_planner/submodules/astar_planner.py`
 
 ## Learning Outcomes
-- Understand A* path planning algorithm
-- Gain hands-on experience with ROS2-based robotic control
-- Integrate digital twin scenarios using FalconSim
+- Implement the A* path planning algorithm from scratch
+- Integrate and control a robot in a realistic digital twin environment using ROS2
+- Learn how to tune parameters for non-holonomic robot navigation
+- Gain experience configuring and launching simulations using FalconSim
 
+## Need Help?
+For FalconSim setup or debugging questions, reach out to us on our [Community Discord]() 
