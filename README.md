@@ -77,16 +77,20 @@ Edit ros_falcon_astar.launch.py:
 - Update `scenario=` to the full path of `AMRPathPlanning.usda`
 
 ### 6. Launch Simulation
+Use the command below to launch your simulation.
+
+> **Note:** All values must be filled in by you based on your planning map and robot configuration. These are intentionally left as `0.0` to prompt calculation and testing.
+
 ```bash
 ros2 launch astar_falcon_planner ros_falcon_astar.launch.py \
-    start_position:=[0.35,1.2,0.0] \
-    end_position:=[5.5,1.50,0.0] \
-    robot_radius:=0.220 \
-    clearance:=0.025 \
-    delta_time:=1.0 \
-    wheel_radius:=0.033 \
-    wheel_distance:=0.287 \
-    rpms:=[50.0,100.0]
+    start_position:=[0.0, 0.0, 0.0] \
+    end_position:=[0.0, 0.0, 0.0] \
+    robot_radius:=0.0 \
+    clearance:=0.0 \
+    delta_time:=0.0 \
+    wheel_radius:=0.0 \
+    wheel_distance:=0.0 \
+    rpms:=[0.0, 0.0]
 ```
 
 ## Important Notes
