@@ -36,6 +36,7 @@ AStarPlanningProject/
 │   └── (Environment + TurtleBot Twin files)
 ├── slides/
 └── README.md
+```
 
 ### Notes
 
