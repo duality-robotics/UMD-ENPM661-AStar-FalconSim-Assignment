@@ -24,7 +24,7 @@ AStarPlanningProject/
 │   └── AMRPathPlanning/
 │       └── AMRPathPlanning.usda
 ├── Twins/
-│   └── (various FalconSim configs)
+│   └── (Environment + Turtlebot Twin files)
 ├── slides/
 └── README.md
 ```
