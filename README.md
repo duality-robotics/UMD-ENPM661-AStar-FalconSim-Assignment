@@ -106,6 +106,53 @@ This page includes:
 - Demo videos of scenario setup and outputs
 - Sample commands and map guidance
 
+
+## Deliverables
+
+Your team must submit a `.zip` file named: proj3p2_firstname#1_firstname#2_firstname#3.zip
+This ZIP should contain the following **folders and files**:
+
+├── Part01/
+│ └── Source Code (.py)
+├── Part02/
+│ └── ROS2 Workspace (modified with your A* implementation)
+├── README.md or README.txt
+
+
+The `README` must include:
+- ✅ Clear instructions to **run Part01 and launch Part02 (ROS2 Node)**
+- ✅ Example input parameters for terminal execution
+- ✅ List of dependencies used (e.g., numpy, matplotlib, etc.)
+- ✅ Names of all team members with their **Directory ID and UID**
+- ✅ GitHub repository link to the project  
+  - Should contain **at least 5 commits** (combined, across all members)
+  - Initially set to **Private**, and change to **Public** after the deadline
+- **Do NOT** upload `Scenarios` and `Twins` folders — only include the `ROS2/` folder
+
+---
+
+### Simulation Videos
+
+Upload **2 videos** (Do not include `.mp4` in the ZIP):
+
+- **Part 01**: Python path planner moving past 2 rectangles and the circle
+- **Part 02**: TurtleBot3 navigating in FalconSim  
+  - Start: Left of the 1st rectangle  
+  - Goal: Space above/below/right of the shown black circle
+
+➡ Upload the videos to **Google Drive** or **YouTube (Unlisted)**  
+Include the links in your `README.md`
+
+---
+
+### Additional PDF Submission
+
+**Also submit:** proj3p2_firstname#1_firstname#2_firstname#3.pdf
+
+This must contain the **complete source code for both Part01 and Part02**.  
+Do **not** include this file inside the ZIP — submit it separately for plagiarism check.
+
+
 ## Final Checklist
 
 1. Follow setup instructions for FalconSim & ROS2
