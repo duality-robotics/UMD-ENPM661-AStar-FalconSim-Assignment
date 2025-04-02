@@ -177,7 +177,7 @@ Upload **2 videos** (Do not include `.mp4` in the ZIP):
 - **Part 01**: Python path planner moving past 2 rectangles and the circle
 - **Part 02**: TurtleBot3 navigating in FalconSim from a Start point to a Goal point.
 
-➡ Upload the videos to **Google Drive** or **YouTube (Unlisted)**  
+Upload the videos to **Google Drive** or **YouTube (Unlisted)**  
 Include the links in your `README.md`
 
 ---
