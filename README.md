@@ -116,5 +116,6 @@ This page includes:
 - Gain experience configuring and launching simulations using FalconSim
 
 ## Need Help?
-For FalconSim setup or debugging questions, reach out to us on our [Community Discord](https://discord.com/invite/dualityfalconcommunity) 
+For FalconSim setup or debugging questions, reach out to us on our [Community Discord](https://discord.com/invite/dualityfalconcommunity). 
+
 Good luck and happy path planning!
