@@ -4,7 +4,7 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 ---
 
-![TurtleBot3 navigating the map](Screenshot%202025-04-01%20192130.png)
+![TurtleBot3 navigating the map](image.png)
 
 ---
 
