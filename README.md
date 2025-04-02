@@ -4,6 +4,10 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 ---
 
+![TurtleBot3 navigating the map](slides/sample_astar_map.png)
+
+---
+
 ## 📁 Project Structure
 
 - `ROS2/`: Contains the ROS2 workspace with launch files and source code
