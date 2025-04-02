@@ -12,7 +12,7 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 To reduce repository size, the `Scenarios/` and `Twins/` folders are hosted externally.
 
-📥 [Download Simulation Assets (Scenarios + Twins)](https://your-shared-link.com)
+📥 [Download Simulation Assets (Scenarios + Twins)](https://drive.google.com/drive/folders/1ytfv7Ut69C7_yenRAOeQ3AwlA3DpPxIn?usp=sharing)
 
 After downloading, your folder structure should look like:
 
