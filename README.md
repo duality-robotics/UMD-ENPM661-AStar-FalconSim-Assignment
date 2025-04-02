@@ -25,14 +25,13 @@ AStarPlanningProject/
 │       └── AMRPathPlanning.usda
 ├── Twins/
 │   └── (various FalconSim configs)
-├── Work/
 ├── slides/
 └── README.md
 ```
 
 - `ROS2/`: Contains the ROS2 workspace with launch files and source code
 - `Scenarios/AMRPathPlanning/`: FalconSim USD scenario and Python control script
-- `Twins/`, `Work/`: Simulation-related data/configs
+- `Twins/`: Simulation-related data/configs
 - `slides/`: PDF slides for classroom instruction
 - `.gitignore`, `.gitattributes`: Standard project config
 
