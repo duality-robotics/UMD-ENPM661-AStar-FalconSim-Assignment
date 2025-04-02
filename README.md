@@ -112,21 +112,21 @@ This page includes:
 Your team must submit a `.zip` file named: proj3p2_firstname#1_firstname#2_firstname#3.zip
 This ZIP should contain the following **folders and files**:
 
-proj3p2_firstname#1_firstname#2_firstname#3.zip
 ├── Part01/
-│   └── Source Code (.py)
+│ └── your_source_code.py
 ├── Part02/
-│   └── ROS2 Workspace (modified with your A* implementation)
-└── README.md or README.txt
-
-
+│ └── ros2_workspace/
+│ ├── src/
+│ ├── build/
+│ └── ... (other ROS2 workspace files)
+└── README.md
 
 The `README` must include:
-- ✅ Clear instructions to **run Part01 and launch Part02 (ROS2 Node)**
-- ✅ Example input parameters for terminal execution
-- ✅ List of dependencies used (e.g., numpy, matplotlib, etc.)
-- ✅ Names of all team members with their **Directory ID and UID**
-- ✅ GitHub repository link to the project  
+- Clear instructions to **run Part01 and launch Part02 (ROS2 Node)**
+- Example input parameters for terminal execution
+- List of dependencies used (e.g., numpy, matplotlib, etc.)
+- Names of all team members with their **Directory ID and UID**
+- GitHub repository link to the project  
   - Should contain **at least 5 commits** (combined, across all members)
   - Initially set to **Private**, and change to **Public** after the deadline
 - **Do NOT** upload `Scenarios` and `Twins` folders — only include the `ROS2/` folder
