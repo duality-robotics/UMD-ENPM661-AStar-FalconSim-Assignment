@@ -12,9 +12,15 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 To reduce repository size, the `Scenarios/` folder is hosted externally.
 
-📥 [Download Scenarios Folder)](https://drive.google.com/drive/folders/1ytfv7Ut69C7_yenRAOeQ3AwlA3DpPxIn?usp=sharing)
+Follow these steps to set up your local directory correctly:
 
-After downloading, your folder structure should look like:
+1. Create a folder named `Scenarios/` at the same level as your `ROS2/` and `Twins/` folders in the project directory.
+2. Download the AMRPathPlanning scenario from Falcon Cloud (login required using your Falcon EDU credentials):  
+   📥 [Download AMRPathPlanning Scenario](https://falcon.duality.ai/auth?destination=/secure/scenarios/edit/a265f262-d751-452f-83f6-9713ef4f9c10)
+3. Unzip the downloaded folder.
+4. Place the unzipped `AMRPathPlanning` folder inside your `Scenarios/` folder.
+
+Your final folder structure should look like this:
 
 ```text
 AStarPlanningProject/
@@ -22,18 +28,29 @@ AStarPlanningProject/
 │   └── falcon_turtlebot3_project_ws/
 ├── Scenarios/
 │   └── AMRPathPlanning/
-│       └── AMRPathPlanning.usda
+│       ├── AMRPathPlanning.usda
+│       ├── AMRPathPlanning.py
+│       └── Paks/
+│           └── <*.pak file>
 ├── Twins/
-│   └── (Environment + Turtlebot Twin files)
+│   └── (Environment + TurtleBot Twin files)
 ├── slides/
 └── README.md
-```
+
+### Notes
+
+- `AMRPathPlanning.py` controls the FalconSim-side robot behavior and interprets velocity commands from ROS2.
+- `Paks/` contains the environment assets required by FalconSim to render and simulate the warehouse environment.
+- This setup step is **required for both VM and local users** to run the simulation correctly.
+
+---
+
+### Directory Descriptions
 
 - `ROS2/`: Contains the ROS2 workspace with launch files and source code
-- `Scenarios/AMRPathPlanning/`: FalconSim USD scenario and Python control script
-- `Twins/`: Simulation-related data/configs
-- `slides/`: PDF slides for classroom instruction
-- `.gitignore`, `.gitattributes`: Standard project config
+- `Scenarios/AMRPathPlanning/`: FalconSim USD scenario, Paks folder, and Python control script
+- `Twins/`: Simulation-related configuration for both the environment and the TurtleBot3 hero twin
+- `slides/`: PDF slides provided for classroom instruction
 
 ---
 
