@@ -119,7 +119,6 @@ proj3p2_firstname#1_firstname#2_firstname#3.zip
 ├── Part02/
 │   └── ROS2 Workspace (modified with your A* implementation)
 └── README.md or README.txt
-
 ```
 
 The `README` must include:
@@ -139,9 +138,7 @@ The `README` must include:
 Upload **2 videos** (Do not include `.mp4` in the ZIP):
 
 - **Part 01**: Python path planner moving past 2 rectangles and the circle
-- **Part 02**: TurtleBot3 navigating in FalconSim  
-  - Start: Left of the 1st rectangle  
-  - Goal: Space above/below/right of the shown black circle
+- **Part 02**: TurtleBot3 navigating in FalconSim from a Start point to a Goal point.
 
 ➡ Upload the videos to **Google Drive** or **YouTube (Unlisted)**  
 Include the links in your `README.md`
