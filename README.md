@@ -113,9 +113,9 @@ Your team must submit a `.zip` file named: proj3p2_firstname#1_firstname#2_first
 This ZIP should contain the following **folders and files**:
 
 ├── Part01/
-│ └── Source Code (.py)
+│   └── Source Code (.py)
 ├── Part02/
-│ └── ROS2 Workspace (modified with your A* implementation)
+│   └── ROS2 Workspace (modified with your A* implementation)
 ├── README.md or README.txt
 
 
