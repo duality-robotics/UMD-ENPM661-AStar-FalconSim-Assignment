@@ -16,7 +16,7 @@ Follow these steps to set up your local directory correctly:
 
 1. Create a folder named `Scenarios/` at the same level as your `ROS2/` and `Twins/` folders in the project directory.
 2. Download the AMRPathPlanning scenario from Falcon Cloud (login required using your Falcon EDU credentials):  
-   📥 [Download AMRPathPlanning Scenario](https://falcon.duality.ai/auth?destination=/secure/scenarios/edit/a265f262-d751-452f-83f6-9713ef4f9c10)
+   📥 [Download AMRPathPlanning Scenario](https://falcon.duality.ai/secure/scenarios/edit/a265f262-d751-452f-83f6-9713ef4f9c10)
 3. Unzip the downloaded folder.
 4. Place the unzipped `AMRPathPlanning` folder inside your `Scenarios/` folder.
 
