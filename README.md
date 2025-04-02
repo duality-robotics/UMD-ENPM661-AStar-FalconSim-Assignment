@@ -8,7 +8,27 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure (after setup)
+
+To reduce repository size, the `Scenarios/` and `Twins/` folders are hosted externally.
+
+📥 [Download Simulation Assets (Scenarios + Twins)](https://your-shared-link.com)
+
+After downloading, your folder structure should look like:
+
+```text
+AStarPlanningProject/
+├── ROS2/
+│   └── falcon_turtlebot3_project_ws/
+├── Scenarios/
+│   └── AMRPathPlanning/
+│       └── AMRPathPlanning.usda
+├── Twins/
+│   └── (various FalconSim configs)
+├── Work/
+├── slides/
+└── README.md
+```
 
 - `ROS2/`: Contains the ROS2 workspace with launch files and source code
 - `Scenarios/AMRPathPlanning/`: FalconSim USD scenario and Python control script
