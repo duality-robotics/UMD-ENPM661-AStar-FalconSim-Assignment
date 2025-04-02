@@ -34,7 +34,7 @@ Welcome to **Project 03 - Phase 2** of ENPM661 Spring 2025. In this assignment, 
 
 ### 1. Falcon Setup
 - [Create a Falcon Account](https://falcon.duality.ai/auth/sign-up)
-- [Download FalconSim for Ubuntu 5.1](https://falcon.duality.ai/downloads)
+- [Download FalconSim for Ubuntu 5.1](https://falcon.duality.ai/secure/downloads)
 ```bash
 cd ~/Downloads
 sudo apt install ./FalconSim_Linux_Ubuntu22_v5.1.0216.deb
