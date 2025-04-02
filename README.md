@@ -92,7 +92,7 @@ ros2 launch astar_falcon_planner ros_falcon_astar.launch.py \
 - You will implement A* in: `astar_falcon_planner/submodules/astar_planner.py`
 
 ## Learn About the Simulation Environment
-[Falcon Docs & Videos (EDU login required)]()
+[Falcon Docs & Videos (EDU login required)](https://falcon.duality.ai/secure/documentation/umd-enpm-661-astar-planning-project-videos)
 This page includes:
 - FalconSim onboarding for students
 - Demo videos of scenario setup and outputs
@@ -112,5 +112,5 @@ This page includes:
 - Gain experience configuring and launching simulations using FalconSim
 
 ## Need Help?
-For FalconSim setup or debugging questions, reach out to us on our [Community Discord]() 
+For FalconSim setup or debugging questions, reach out to us on our [Community Discord](https://discord.com/invite/dualityfalconcommunity) 
 Good luck and happy path planning!
