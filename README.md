@@ -112,14 +112,15 @@ This page includes:
 Your team must submit a `.zip` file named: proj3p2_firstname#1_firstname#2_firstname#3.zip
 This ZIP should contain the following **folders and files**:
 
-.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+```bash
+proj3p2_firstname#1_firstname#2_firstname#3.zip
+├── Part01/
+│   └── Source Code (.py)
+├── Part02/
+│   └── ROS2 Workspace (modified with your A* implementation)
+└── README.md or README.txt
 
+```
 
 The `README` must include:
 - Clear instructions to **run Part01 and launch Part02 (ROS2 Node)**
