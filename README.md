@@ -105,7 +105,7 @@ source install/setup.bash
 ```
 
 ### 5. Update Launch File Paths
-Edit:
+location: ROS2/falcon_turtlebot3_project_ws/src/astar_falcon_planner/launch/ros_falcon_astar.launch.py 
 ```bash
 ros_falcon_astar.launch.py
 ```
