@@ -93,7 +93,7 @@ sudo apt install python3-colcon-common-extensions
 cd ~/duality/falconsim/
 ./Falcon.sh
 ```
-- Login and save credentials when prompted, then close FalconSim.
+- Login and save credentials when prompted, then close FalconSim. (No need to use the UI to load scenario)
 
 ### 4. Clone This Repo & Setup ROS2 Workspace
 ```bash
