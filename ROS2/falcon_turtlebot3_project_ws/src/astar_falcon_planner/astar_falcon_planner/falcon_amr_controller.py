@@ -38,7 +38,7 @@ class RobotAStarPlannerNode(Node):
         wheel_radius = wheel_radius*100
         wheel_distance = wheel_distance*100   
 
-        path = plan_path(tuple(int_start),tuple(int_end),robot_radius,clearance,delta_time,goal_threshold,wheel_radius,wheel_distance,rpms[0],rpms[1],self.get_logger())
+        path = plan_path(tuple(int_start),tuple(int_end),robot_radius,clearance,delta_time,goal_threshold,wheel_radius,wheel_distance,rpms[0],rpms[1])
         self.get_logger().info(f'Path 1 Planned')
         actual_stop_pos = int_start
         for move in path:
